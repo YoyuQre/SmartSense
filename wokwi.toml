@@ -1,0 +1,14 @@
+# Wokwi CLI project configuration.
+#
+# Used by `wokwi-cli` to run the simulation locally against a
+# pre-compiled firmware image. The firmware is the same one produced by
+# `pio run` (see platformio.ini), so this validates the actual project
+# firmware inside the real Wokwi simulator.
+#
+# The firmware path points at the PlatformIO build output, which keeps a
+# single firmware build: PlatformIO compiles it, Wokwi simulates it.
+
+[wokwi]
+version = 1
+firmware = ".pio/build/esp32dev/firmware.bin"
+elf = ".pio/build/esp32dev/firmware.elf"

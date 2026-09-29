@@ -1,0 +1,28 @@
+# Arduino libraries required by the Smart Occupancy IoT firmware.
+#
+# WHY THIS FILE IS NEEDED
+# Wokwi compiles ESP32 sketches against only the built-in Arduino libraries
+# (Wire.h, SPI.h, ...). OneWire and DallasTemperature are third-party, so
+# Wokwi must be told about them explicitly. Without this file the build fails
+# with "OneWire.h: No such file or directory" / "DallasTemperature.h: No such
+# file or directory".
+#
+# NOTE: the "dependencies" field in diagram.json is NOT a Wokwi library
+# mechanism. It is undocumented in the diagram.json reference and is ignored.
+# This libraries.txt file is the documented mechanism.
+#
+# FORMAT
+# One Arduino Library Manager name per line. "#" starts a comment.
+# Append "@<version>" to pin an exact version, e.g. MySensors@2.3.0
+#
+# The versions below are pinned to match lib_deps in platformio.ini so the
+# Wokwi build and the local PlatformIO build use identical library code.
+# Verified locally on 2026-09-29.
+#   OneWire          2.3.8
+#   DallasTemperature 3.11.0
+#
+# If Wokwi reports it cannot find version 3.11.0, delete the "@3.11.0"
+# suffixes to install the current release instead. DallasTemperature 4.0.6
+# was also confirmed to compile this firmware unchanged.
+OneWire@2.3.8
+DallasTemperature@3.11.0
