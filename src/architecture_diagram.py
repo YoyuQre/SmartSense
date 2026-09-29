@@ -183,7 +183,7 @@ def main() -> int:
     # The y-axis is inverted (set_ylim(fig_h, 0)), so small y is the TOP.
     ax.text(
         0.4, 0.28,
-        "IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control Using Machine Learning",
+        "Occupancy-Based Lighting/HVAC",
         ha="left", va="center", fontsize=12.5, fontweight="bold", color="#0d47a1",
     )
     ax.text(

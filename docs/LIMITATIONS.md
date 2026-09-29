@@ -1,6 +1,6 @@
 # Limitations
 
-**Project:** IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control
+**Project:** Occupancy-Based Lighting/HVAC
 Using Machine Learning — Team 8
 
 This file exists because a capstone report that only lists successes is not

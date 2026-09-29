@@ -1,7 +1,7 @@
 # Smart Occupancy IoT + ML System
 
 College IoT + Machine Learning capstone:
-**IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control Using Machine Learning**
+**Occupancy-Based Lighting/HVAC**
 
 Two layers — the **IoT firmware layer** (Phase 2B) and the **ML/analysis layer**
 (Phases 2C–5). The ML pipeline, anomaly rules and control logic are complete and

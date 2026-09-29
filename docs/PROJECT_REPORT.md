@@ -1,4 +1,4 @@
-# IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control Using Machine Learning
+# Occupancy-Based Lighting/HVAC
 
 ### AI for IoT — Capstone Project Report
 

@@ -1,6 +1,6 @@
 # Viva Preparation
 
-**Project:** IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control
+**Project:** Occupancy-Based Lighting/HVAC
 Using Machine Learning
 **Team 8:** 241829 Mohammed Amin Kaifi Patel, 241833 Mohammed Yahya Mohammed
 Qayyum Qureshi, 241836 Abuzar Sayyed

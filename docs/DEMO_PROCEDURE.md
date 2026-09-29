@@ -1,6 +1,6 @@
 # Demo Procedure
 
-**Project:** IoT-Based Occupancy Prediction and Intelligent Lighting/HVAC Control
+**Project:** Occupancy-Based Lighting/HVAC
 Using Machine Learning — Team 8
 **Duration:** 10–12 minutes
 **Hardware required:** none. The demo runs entirely from frozen files.
